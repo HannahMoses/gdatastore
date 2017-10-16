@@ -1,0 +1,35 @@
+
+===.......9:09 PM 10/9/2017.........=======
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href=" dstemplates/dsstyling/dstyle1.css">
+
+</head>
+<body>
+
+    <h1> WELCOME TO THE DATA STORE</h1>
+<!--    <img src="file:///C:/Users/cody/Downloads/Git/gitcode/MyJS/oct2017JS/datastore/dstemplates/dssites/preventiveHealth.html" alt="PH" style="height:123px;width:768px"></img>-->
+    <p8><img src="C:\Users\cody\Downloads\Git\gitcode\MyJS\oct2017JS\datastore\dstemplates\dsimages\prevent1.jpg"alt="PH"style="width:1138px;height:134px"></img></p8>
+<br><a href="file:///C:/Users/cody/Downloads/Git/gitcode/MyJS/oct2017JS/datastore/dstemplates/dssites/preventiveHealth.html">Click here for preventive health care </a>
+<div>
+<br><br><br><p7><img src="C:\Users\cody\Downloads\Git\gitcode\MyJS\oct2017JS\datastore\dstemplates\dsimages\rightMeds1.jpg"alt="PH"style="width:438px;height:334px"></img></p7>
+</div><br><p5><a href="file:///C:/Users/cody/Downloads/Git/gitcode/MyJS/oct2017JS/datastore/dstemplates/dssites/rightMed1.html">Click here to get health care </a></p5>
+<div><br><br><p7><img src="C:\Users\cody\Downloads\Git\gitcode\MyJS\oct2017JS\datastore\dstemplates\dsimages\Complain1.jpg"alt="PH"style="width:438px;height:334px"></img></p7>
+</div><br><a href="file:///C:/Users/cody/Downloads/Git/gitcode/MyJS/oct2017JS/datastore/dstemplates/dssites/complain.html">Click here to file a complaint </a>
+</body>
+</html>
+
+===....11:45 AM 10/9/2017...===
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href=" dstemplates/dstyle1.css">
+
+</head>
+<body>
+    <h1> WELCOME TO THE DATA STORE</h1>
+    <p>
+
+</body>
+</html>

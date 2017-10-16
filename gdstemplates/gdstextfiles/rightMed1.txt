@@ -1,0 +1,24 @@
+=====...9:24 PM 10/9/2017........=========
+
+<!DOCTYPE html>
+<html>
+<head>
+<title> Help to find the right doctor</title>
+</head>
+<body>
+ <p6> <a href="file:///C:/Users/cody/Downloads/Git/gitcode/MyJS/oct2017JS/datastore/dsfront.html">HOME</a></p6>
+  <h1> HELP TO FIND THE RIGHT DOCTOR</h1>
+  <p>For obstetrical care : <br> Dr Karen Samuels MMD,PhD<br> Room # 315, St Mark's Catholic hospital,NewHaven ,CN</p><br>
+<br><br> <p>For ENT care : <br> Dr Fareed Gusana MMD,PhD<br>Room #234, St Mark's Catholic hospital,NewHaven ,CN</p><br>
+<br><br> <p>For kidney care : <br> Dr Peter Wanmeril MMD,PhD<br>Room # 198, St Mark's Catholic hospital,NewHaven ,CN</p><br>
+<br><br> <p>For opthalmology care : <br> Dr Jonathan Summers MMD,PhD<br>Room # 231, St Mark's Catholic hospital,NewHaven ,CN</p><br>
+<br><br> <p>For pulmonary care : <br> Dr David Ford PhD<br>Room # 323, St Mark's Catholic hospital,NewHaven ,CN</p><br>
+<br><br> <p>For cardiology care : <br> Dr Sarah Fowden MMD,CEC,PhD<br>Room # 243, St Mark's Catholic hospital,NewHaven ,CN</p><br>
+<br><br> <p>For orthopedic care : <br> Dr Elizabeth Hartley, DMCS,PhD<br>Room # 319, St Mark's Catholic hospital,NewHaven ,CN</p><br>
+<br><br> <p>For gynecology care : <br> Dr Zachariah Pongetrel HHD,PhD<br>Room # 329, St Mark's Catholic hospital,NewHaven ,CN</p><br>
+
+
+
+</body>
+
+</html>

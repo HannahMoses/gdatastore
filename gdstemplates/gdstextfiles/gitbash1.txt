@@ -1,0 +1,207 @@
+
+===...9:41 PM 10/9/2017...====
+cody@LAPTOP-TO4068AG MINGW64 /
+$ ls
+1index/                 dev/           H2K2017/          ReleaseNotes.html
+1myshopCodeTextFiles/   dontUseNow/    LICENSE.txt       TA2017LC101/
+1myshopGitCommands.txt  etc/           microblog/        tmp/
+1techExprmnt/           git-bash.exe*  mingw64/          unins000.dat
+BBuckSourceTree2017/    git-cmd.exe*   oldNewLists.html  unins000.exe*
+bin/                    gitcode/       Practice/         unins000.msg
+cmd/                    gitjava/       proc/             usr/
+
+cody@LAPTOP-TO4068AG MINGW64 /
+$ cd gitcode/MyJS/oct2017JS
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/MyJS/oct2017JS
+$ ls
+datastore/
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/MyJS/oct2017JS
+$ cd datastore
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/MyJS/oct2017JS/datastore
+$ dir
+dsfront.html  dstemplates
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/MyJS/oct2017JS/datastore
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/MyJS/oct2017JS/datastore
+$ git init
+Initialized empty Git repository in C:/Users/cody/Downloads/Git/gitcode/MyJS/oct2017JS/datastore/.git/
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/MyJS/oct2017JS/datastore (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        dsfront.html
+        dstemplates/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/MyJS/oct2017JS/datastore (master)
+$ git add .
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/MyJS/oct2017JS/datastore (master)
+$ git commit -m "first commit"
+[master (root-commit) d75fcde] first commit
+ 14 files changed, 280 insertions(+)
+ create mode 100644 dsfront.html
+ create mode 100644 dstemplates/dsimages/complain1.JPG
+ create mode 100644 dstemplates/dsimages/prevent1.JPG
+ create mode 100644 dstemplates/dsimages/rightMeds1.JPG
+ create mode 100644 dstemplates/dssites/complain.html
+ create mode 100644 dstemplates/dssites/preventiveHealth.html
+ create mode 100644 dstemplates/dssites/rightMed1.html
+ create mode 100644 dstemplates/dsstyling/dstyle1.css
+ create mode 100644 dstemplates/dsstyling/dstyle2.css
+ create mode 100644 dstemplates/dstextfiles/complain.txt
+ create mode 100644 dstemplates/dstextfiles/dsfront.txt
+ create mode 100644 dstemplates/dstextfiles/dstyle1.txt
+ create mode 100644 dstemplates/dstextfiles/preventiveHealth.txt
+ create mode 100644 dstemplates/dstextfiles/rightMed1.txt
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/MyJS/oct2017JS/datastore (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/MyJS/oct2017JS/datastore (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        dstemplates/dstextfiles/gitbash1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/MyJS/oct2017JS/datastore (master)
+$ git add .
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/MyJS/oct2017JS/datastore (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   dstemplates/dstextfiles/gitbash1.txt
+
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/MyJS/oct2017JS/datastore (master)
+$ git commit -m "GitbashDOTtxt added"
+[master 7cd6ae3] GitbashDOTtxt added
+ 1 file changed, 78 insertions(+)
+ create mode 100644 dstemplates/dstextfiles/gitbash1.txt
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/MyJS/oct2017JS/datastore (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/MyJS/oct2017JS/datastore (master)
+$ git remote add origin https://github.com/HannahMoses/datastore.git
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/MyJS/oct2017JS/datastore (master)
+$ git push origin master
+Counting objects: 26, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (26/26), done.
+Writing objects: 100% (26/26), 259.76 KiB | 0 bytes/s, done.
+Total 26 (delta 8), reused 0 (delta 0)
+remote: Resolving deltas: 100% (8/8), done.
+To https://github.com/HannahMoses/datastore.git
+ * [new branch]      master -> master
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/MyJS/oct2017JS/datastore (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/MyJS/oct2017JS/datastore (master)
+$
+
+
+===...9:38 PM 10/9/2017...====
+cody@LAPTOP-TO4068AG MINGW64 /
+$ ls
+1index/                 dev/           H2K2017/          ReleaseNotes.html
+1myshopCodeTextFiles/   dontUseNow/    LICENSE.txt       TA2017LC101/
+1myshopGitCommands.txt  etc/           microblog/        tmp/
+1techExprmnt/           git-bash.exe*  mingw64/          unins000.dat
+BBuckSourceTree2017/    git-cmd.exe*   oldNewLists.html  unins000.exe*
+bin/                    gitcode/       Practice/         unins000.msg
+cmd/                    gitjava/       proc/             usr/
+
+cody@LAPTOP-TO4068AG MINGW64 /
+$ cd gitcode/MyJS/oct2017JS
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/MyJS/oct2017JS
+$ ls
+datastore/
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/MyJS/oct2017JS
+$ cd datastore
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/MyJS/oct2017JS/datastore
+$ dir
+dsfront.html  dstemplates
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/MyJS/oct2017JS/datastore
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/MyJS/oct2017JS/datastore
+$ git init
+Initialized empty Git repository in C:/Users/cody/Downloads/Git/gitcode/MyJS/oct2017JS/datastore/.git/
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/MyJS/oct2017JS/datastore (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        dsfront.html
+        dstemplates/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/MyJS/oct2017JS/datastore (master)
+$ git add .
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/MyJS/oct2017JS/datastore (master)
+$ git commit -m "first commit"
+[master (root-commit) d75fcde] first commit
+ 14 files changed, 280 insertions(+)
+ create mode 100644 dsfront.html
+ create mode 100644 dstemplates/dsimages/complain1.JPG
+ create mode 100644 dstemplates/dsimages/prevent1.JPG
+ create mode 100644 dstemplates/dsimages/rightMeds1.JPG
+ create mode 100644 dstemplates/dssites/complain.html
+ create mode 100644 dstemplates/dssites/preventiveHealth.html
+ create mode 100644 dstemplates/dssites/rightMed1.html
+ create mode 100644 dstemplates/dsstyling/dstyle1.css
+ create mode 100644 dstemplates/dsstyling/dstyle2.css
+ create mode 100644 dstemplates/dstextfiles/complain.txt
+ create mode 100644 dstemplates/dstextfiles/dsfront.txt
+ create mode 100644 dstemplates/dstextfiles/dstyle1.txt
+ create mode 100644 dstemplates/dstextfiles/preventiveHealth.txt
+ create mode 100644 dstemplates/dstextfiles/rightMed1.txt
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/MyJS/oct2017JS/datastore (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+cody@LAPTOP-TO4068AG MINGW64 /gitcode/MyJS/oct2017JS/datastore (master)
+$
