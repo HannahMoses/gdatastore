@@ -1,0 +1,111 @@
+
+
+
+<!-- 8:20 PM 10/16/2017-->
+<! DOCTYPE html>
+<html>
+<head><title>FORM 2 SEND EMAIL</title>
+<link rel="stylesheet" href="gdstemplates/gdsstyling/gdstyle6.css">
+  </head>
+<body>
+    <div id="appointment-office-info">
+        <ol>
+            <li>Request an appointment with the doctor of your choice online.</li>
+            <li>You will get a confirmation email or alternative times.</li>
+        </ol>
+        <div class="clear"></div>
+    </div>
+    <form method="post" action="" class="mobile" id="appointment">
+            <div class="form-wrapper">
+                                        <div class="form-section" id="full-name-section">
+                    <label for="fname">Full Name: *
+                    </label>
+                    <input name="fname" type="textbox" id="fnamemob"
+                    >
+                </div>
+                <div class="form-section">
+                    <label for="phone">Phone: *</label>
+                    <input name="phone" type="tel" id="phonemob"
+                    >
+                </div>
+                <div class="form-section">
+                    <label for="email">Email: *
+                    </label>
+                    <input name="email" type="email" id="emailmob"
+                    >
+                </div>
+                <div class="form-section">
+                    <label for="time">Preferred Time:</label>
+                    <select id="timemob" name="time">
+                        <option value=""></option>
+                        <option value="7AM-10AM" >7AM - 10AM</option>
+                        <option value="10AM-12PM" >10AM - 12PM</option>
+                        <option value="12PM-2PM" >12PM - 2PM</option>
+                        <option value="2PM-4PM" >2PM - 4PM</option>
+                        <option value="After 4PM" >After 4PM</option>
+                        <option value="Any time" >Any time</option>
+                    </select>
+                </div>
+                <div class="form-section">
+                    <label for="date">Preferred Date:</label>
+                    <input name="date" type="textbox" class="datepicker" id="datemob"
+                     readonly>
+                </div>
+                <div class="form-section">
+                    <div class="column first">
+                        <label for="prefix">Gender:</label>
+                    </div>
+                    <div class="column second">
+                        <input name="prefix" type="radio" id="mr-m" value="Mr" ><label for="mr-m"><div></div> Male</label>
+                    </div>
+                    <div class="column tres">
+                        <input name="prefix" type="radio" id="ms-m" value="Ms" > <label for="ms-m"><div></div> Female</label>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="form-section">
+                    <div class="column first">
+                        <label for="prefix">Contact by:</label>
+                    </div>
+                    <div class="column second">
+                        <input name="preference" type="radio" id="con-tel-m" value="Please contact me by phone" ><label for="con-tel-m"><div></div> Phone</label>
+                    </div>
+                    <div class="column tres"><input name="preference" type="radio" id="con-email-m" value="Please contact me by email" ><label for="con-email-m"><div></div> Email</label>
+                    </div>
+
+                    <div class="clear"></div>
+                </div>
+                <div class="form-section">
+                    <div class="column first">
+                        <label for="patientType">Patient Type: *
+                                                        </label>
+                    </div>
+                    <div class="column second">
+                        <input type="radio" name="patientType" id="new-m" value="New" ><label for="new-m"><div></div> New</label>
+                    </div>
+                    <div class="column tres">
+                        <input type="radio" name="patientType" id="current-m" value="Current" ><label for="current-m"><div></div> Current</label>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="form-section">
+                    <div class="column first">
+                        <label for="age">Age:</label>
+                    </div>
+                    <div class="column second">
+                        <input type="radio" name="age" id="adult-m" value="Adult" ><label for="adult-m"><div></div> Adult</label>
+                    </div>
+                    <div class="column tres">
+                        <input type="radio" name="age" id="child-m" value="Child" ><label for="child-m"><div></div> Child</label>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <label for="message">How can we help you today?</label>
+                <textarea name="message" id="messagemob"></textarea>
+            </div>
+            <input type="submit" name="submit" value="Submit Form" onClick="findwords()">
+        </form>
+
+</body>
+</html>
+
